@@ -1,0 +1,25 @@
+/* userButtonPhoto  */
+
+.userButtonPhoto.sc-button-view.sc-regular-size.square,
+.userButtonPhoto.sc-button-view.sc-regular-size.square.active,
+.userButtonPhoto.sc-button-view.sc-regular-size.square:hover,
+.sc-button-view.sc-regular-size.square .sc-button-inner {
+   cursor: pointer;
+}
+
+.userButtonPhoto.sc-button-view.sc-regular-size.square .sc-button-label,
+.userButtonPhoto.sc-button-view.sc-regular-size.square .sc-button-label:hover,
+.userButtonPhoto.sc-button-view.sc-regular-size.square .sc-button-label:active  {
+    margin-left: 0px;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}

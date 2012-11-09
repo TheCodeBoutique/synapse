@@ -1,0 +1,49 @@
+.user-icon {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.photo-preview {
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+  background-repeat: no-repeat;
+  top: 0px;
+  right: 0px;
+  border-radius: 5px !important;
+  cursor: pointer;
+  position: absolute;
+}
+.title {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  right: 0px;
+  height: 25px;
+  text-align: center;
+}
+
+.stream-cell-container {
+  border-right-style: solid !important;
+  border-right-width: 1px !important;
+  border-right-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-right {
+  -moz-box-shadow: 1px 0px 14px rgba(0, 0, 0, 0.50);
+  -webkit-box-shadow: 1px 0px 14px rgba(0, 0, 0, 0.50);
+  box-shadow: 1px 0px 14px rgba(0, 0, 0, 0.50);
+}
+
+.shadow-bottom {
+  -moz-box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.50);
+  -webkit-box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.50);
+  box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.50);
+}

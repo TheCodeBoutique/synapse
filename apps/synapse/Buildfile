@@ -1,0 +1,20 @@
+# ==========================================================================
+# Project:   Synapse
+# Copyright: @2012 My Company, Inc.
+# ==========================================================================
+
+# This is your Buildfile for your app, Synapse. This tells SproutCore
+# how to build your app. These settings override those in your project
+# Buildfile, which contains default settings for all apps in your project.
+
+# CONFIGURE DEPENDENCIES
+config :synapse, :required => [:sproutcore, :synapse_framework]
+
+
+# CONFIGURE THEMES
+ config :synapse, :theme => 'synapse_theme'
+ config :synapse_theme,  :theme_name => 'synapse_theme'
+
+
+config :synapse, :title => 'Alfresco Demo: Synapse App'
+

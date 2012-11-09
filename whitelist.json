@@ -1,0 +1,110 @@
+{
+    "/synapse": ".*",
+
+		"/synapse_framework": ".*",
+		
+		"/tcb_framework": ".*",
+	
+		"/synapse_theme": ".*",
+
+			"/sproutcore/jquery": ".*",
+			"/sproutcore/foundation": ".*",
+			"/sproutcore/core_foundation": ".*",
+			"/sproutcore/datastore": ".*",
+						
+			"/sproutcore/ajax": [
+				"system/request.js",
+				"system/response"
+			],
+
+		 "/sproutcore/desktop": [
+		 	"core.js",
+		  "render_delegates/helpers.*",
+			"render_delegates/collection.js",
+			"render_delegates/panel.js",
+			"render_delegates/toolbar.js",
+			"render_delegates/button.js",
+			"render_delegates/segment.js",
+			"render_delegates/segmented.js",
+			"render_delegates/well.js",
+			"render_delegates/image_button.js",
+			"mixins/collection_row_delegate.js",
+			"mixins/collection_view_delegate.js",
+			"panes/modal.js",
+			"panes/palette.js",
+			"panes/panel.js",
+			"system/key_bindings.js",
+			"system/drag.js",
+		  "views/button.js",
+		  "views/scroll.js",
+		  "views/scroller.js",
+		  "views/list.js",
+		  "views/list_item.js",
+		  "views/collection.js",
+		  "views/toolbar.js",
+		  "views/tab.js",
+		  "views/image_button.js",
+		  "views/segment.js",
+		  "views/segmented.js",
+		  "views/collection.js"
+		 ],
+		
+		"/sproutcore/runtime": [
+			"core.js",
+			"ext/array.js",
+			"ext/function.js",
+			"ext/string.js",
+			"mixins/array.js",
+			"mixins/copyable.js",
+			"mixins/enumerable.js",
+			"mixins/freezable.js",
+			"mixins/observable.js",
+			"private/chain_observer.js",
+			"private/observer_queue.js",
+			"private/observer_set.js",
+			"system/binding.js",
+			"system/enumerator.js",
+			"system/error.js",
+			"system/function.js",
+			"system/index_set.js",
+			"system/object.js",
+			"system/range_observer.js",
+			"system/run_loop.js",
+			"system/set.js",
+			"system/string.js",
+			"system/logger.js",
+			"system/json.js"														
+		],
+		
+		"/sproutcore/datetime/core": [
+			"frameworks/core/system"
+		],
+		
+		"/sproutcore/statechart": [
+			"core.js",
+			"ext/function.js",
+			"mixins/statechart_delegate.js",
+			"private/state_path_matcher.js",
+			"system/async.js",
+			"system/empty_state.js",
+			"system/history_state.js",
+			"system/state.js",
+			"system/state_route_handler_context.js",
+			"system/statechart.js"			
+		],
+		
+		"/sproutcore/bootstrap": [
+			"core.js",
+			"setup_body_class_names.js",
+			"system/bench.js",
+			"system/browser.js",
+			"system/loader.js"
+		],
+		
+		"/sproutcore/yuireset": [
+			"resources/core.css",
+			"resources/view.css"
+		]
+		
+		
+}

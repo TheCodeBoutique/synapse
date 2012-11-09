@@ -1,0 +1,17 @@
+.custom-tab .sc-segmented-view .sc-segment-view {
+  background: none ;
+  color: black;
+  display: inherit !important;
+  position: relative;
+  text-align: center;
+}
+
+/*.custom-tab .sc-segmented-view .sc-segment-view.sel {
+  background: yellow ;
+  color: black;
+  display: inherit !important;
+  position: relative;
+  text-align: center;
+}*/
+
+

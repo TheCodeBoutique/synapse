@@ -1,0 +1,17 @@
+.sc-segmented-view .sc-segment-view {
+  background: #DDD;
+  color: black;
+  display: inherit !important;
+  position: relative;
+  text-align: center;
+}
+
+.sc-segmented-view {
+  white-space: none !important;
+}
+
+.sc-text-field-view {
+  border: none;
+  overflow: visible;
+  background: none !important;
+}
